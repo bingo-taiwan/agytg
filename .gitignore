@@ -1,0 +1,11 @@
+# Environment & Secrets (NEVER commit tokens)
+.env
+*.env
+!.env.example
+
+# Runtime state & logs
+state.json
+daemon.log
+downloads/
+__pycache__/
+*.pyc
